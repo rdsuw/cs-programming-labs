@@ -2,7 +2,7 @@ price = float(input())
 age = int(input())
 
 if price <= 0 or age < 0 or age > 120:
-    raise ValueError('Ошибка')
+    print('Ошибка')
 
 if 0 <= age <= 5:
     print(f'Стоимость: {price * 0:.2f}')
